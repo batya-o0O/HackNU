@@ -14,8 +14,10 @@
     - `price`
     - `time`
 #### Тестовые данные находятся [здесь](https://github.com/khangroupkz/HackNU/tree/main/database).
+##### Для создания БД и таблиц можете запустить команду:
+`mysql -u root -p < create_tables.sql`
 ##### Для загрузки данных в БД можете запустить команду:
-`mysql -u root -p < umag_dump.sql`
+`mysql -u root -p < insert_supplies.sql` и `mysql -u root -p < insert_sales.sql`
 
 
 ### Вам нужно написать ([REST API](https://habr.com/ru/articles/483202/)) методы для:
