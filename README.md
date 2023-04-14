@@ -13,7 +13,10 @@
     - `quantity`
     - `price`
     - `time`
-#### Тестовые данные находятся [здесь](https://some-link.com/).
+#### Тестовые данные находятся [здесь](https://github.com/khangroupkz/HackNU/tree/main/database).
+##### Для загрузки данных в БД можете запустить команду:
+`mysql -u root -p < umag_dump.sql`
+
 
 ### Вам нужно написать ([REST API](https://habr.com/ru/articles/483202/)) методы для:
 #### 1. [Cоздания, редактирования, удаления и просмотра закупа](https://umaghacknu.docs.apiary.io/#reference/0/0/0).
