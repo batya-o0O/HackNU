@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d2393411-ded5-488d-8613-83feebb8e956",
+		"_postman_id": "4eb00a28-ab31-47d8-a363-5074c5ca273e",
 		"name": "HackNU",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "19646785"
@@ -311,7 +311,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"barcode\": {{barcode}},\r\n    \"price\": {{saleProductPrice}},\r\n    \"quantity\": {{saleProductQuantity}},\r\n    \"saleTime\": \"2022-04-01 10:00:00\"\r\n}",
+							"raw": "{\r\n    \"barcode\": {{barcode}},\r\n    \"price\": 150,\r\n    \"quantity\": 5,\r\n    \"saleTime\": \"2022-04-01 10:00:00\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
